@@ -51,10 +51,7 @@ class truongdh{
             }
             do{
                 cout<<"Nhap so luong ban: ";cin>>m;
-            }while(m<=0);
-            for(int i=0;i<m;i++){
-                cout<<"Nhap thong tin ban thu "<<i+1<<endl;
-                y[i].nhap();
+            }while(m<=0);                y[i].nhap();
             }
         }
         void xuat(){
