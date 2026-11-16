@@ -44,17 +44,20 @@ class tamthucbac2{
         }
 };
 int main(){
-    tamthucbac2 a,b,c;
+    tamthucbac2 a,b,c,d,t,h;
     cin>>a;
     cout<<"Nhap tam thuc bac 2 a: "<<endl;
-    b=-a;
+    cout<<a<<endl;
+    cout<<"Nhap tam thuc bac 2 b: "<<endl;
+    cin>>b;
     cout<<"Tam thuc bac 2 b: "<<endl;
-    cout<<b;
-    c=a+b;
-    cout<<"Tong 2 tam thuc bac 2: "<<endl;
-    cout<<c;
-    c=a-b;
-    cout<<"Hieu 2 tam thuc bac 2: "<<endl;
-    cout<<c;
-    return 0;
-}
+    cout<<b<<endl;
+    c=-a;
+    d=-b;
+    t=c+d;
+    h=a+b;
+    cout<<"Tong cua 2 tam thuc sau khi dao dau la: "<<endl;
+    cout<<t<<endl;
+    cout<<"Hieu cua 2 tam thuc sau khi dao dau la: "<<endl;
+    cout<<h<<endl;
+}    
