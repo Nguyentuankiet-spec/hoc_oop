@@ -1,0 +1,10 @@
+Tam giac P: 
+Canh a= 1
+Canh b= 2
+Canh c= 3
+Tam giac Q: 
+Canh a= 3
+Canh b= 2
+Canh c= 1
+Chu vi tam giac P la: 6
+Chu vi tam giac Q la: 6
