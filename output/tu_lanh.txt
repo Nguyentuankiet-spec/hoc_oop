@@ -1,0 +1,11 @@
+Thong tin tu lanh a: 
+Ten: Sony 
+Mau: Trang
+Gia: 400
+Thong tin tu lanh b: 
+Ten: Sony
+Mau: Trang
+Gia: 300
+Tu lanh a mau trang va gia > 250
+Tu lanh b mau trang va gia > 250
+2 tu lanh khac nhau

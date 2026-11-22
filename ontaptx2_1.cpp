@@ -26,7 +26,7 @@ class dienthoai{
         cout<<"Nhap gia: "; a>>b.gia;
         return a;
     }
-    friend ofstream&operator<<(ofstream &a,dienthoai b){
+    friend ostream& operator<<(ostream &a,dienthoai &b){
         a<<"Ten may: "<<b.tenmay<<endl;
         a<<"Hang san xuat: "<<b.hangsx<<endl;
         a<<"So luong: "<<b.sl<<endl;
@@ -73,6 +73,10 @@ int main(){
     dienthoai a,b("apple","Apple",5,25000000),c;
     cout<<"Nhap thong tin dien thoai a: "<<endl;
     cin>>a;
+    cout<<"Thong tin dien thoai a: "<<endl;
+    cout<<a;
+    cout<<"Thong tin dien thoai b: "<<endl;
+    cout<<b;
     if(--a){
         cout<<"Dien thoai a la hang Apple va gia lon hon 20 trieu!"<<endl;
     }
